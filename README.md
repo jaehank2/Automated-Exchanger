@@ -49,9 +49,9 @@ pcb layout                                                     | pcb schematic
 ## Physical Design
 
 <p align="center">
- <img src="/images/front_view.png" width="300" height="300">
- <img src="/images/topdown_view.png" width="300" height="300">
- <img src="/images/back_view.png" width="300" height="300">
+ <img src="/images/front_view.png" width="200" height="200">
+ <img src="/images/topdown_view.png" width="200" height="200">
+ <img src="/images/back_view.png" width="200" height="200">
 </p>
 
 <p align="center">
