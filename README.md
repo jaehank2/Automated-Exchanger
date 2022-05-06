@@ -1,12 +1,12 @@
-# 445
+<h1 align="center"> G2G Automated Exchanger </h1>
 
 An autonomous food container dispenser machine. 
 
 <img src="images/project.png" width="400" height="300">
 
-Team Members:
+Contributors:
 
-Ariocie Liang (arliang2), John Kim (jaehank2), Henry Guan (henryg3)
+Ariocie Liang (arliang2), Henry Guan (henryg3)
 
 ## PROBLEM
 
