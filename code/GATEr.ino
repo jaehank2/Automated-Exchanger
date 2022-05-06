@@ -1,5 +1,4 @@
-// for card reader - HID boot keyboard
-#include <hidboot.h>
+#include <hidboot.h> // card reader
 #include <usbhub.h>
 
 // Satisfy the IDE, which needs to see the include statment in the ino too.
@@ -31,7 +30,7 @@ SoftwareSerial qr(0, 1);  // Rx, Tx
 //const int v0 = A2, rs = 7, en = 8, d4 = 9, d5 = 10, d6 = 11, d7 = 12;
 //LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
-
+// QR codes
 String qr1 = "3213";
 String qr2 = "3214";
 String qr3 = "3212";
@@ -42,8 +41,9 @@ const int buttonR = 7;
 const int servoD_pin = 2;
 const int servoR_pin = 6;
 
-const unsigned long timeout = 10000; // timeout value for QR set to 2 seconds
+const unsigned long timeout = 10000; // timeout value for QR set to 10 seconds
 
+// Select bits for mux
 int a0 = A0;
 int a1 = A1;
 int a2 = A2;
@@ -60,7 +60,7 @@ bool company = false;
 bool unused = false;
 bool uin = false;
 
-String John = "667474863";
+// String John = "661111111";
 
 struct student {
   String netID;
@@ -174,11 +174,11 @@ void setup() {
   delay( 200 );
   HidKeyboard.SetReportParser(0, &Prs);
   // initialize student info
-  jaehank2.netID = "667474863";
+  jaehank2.netID = "661111111";
   jaehank2.addr = 0;
   jaehank2.tokenNum = EEPROM.read(jaehank2.addr);
 
-  henryg3.netID = "659439620";
+  henryg3.netID = "651111111";
   henryg3.addr = 1;
   henryg3.tokenNum = EEPROM.read(henryg3.addr);
     
